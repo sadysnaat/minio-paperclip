@@ -1,0 +1,14 @@
+<%= simple_form_for(@resume) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+  </div>
+
+
+     <%= f.input :attachment %>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
